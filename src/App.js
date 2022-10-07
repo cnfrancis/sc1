@@ -6,7 +6,8 @@ import Token from './artifacts/contracts/Token.sol/Token.json'
 
 const address = "0x251E22783Ecd00cc5A03Bb3cc190fc0a99e43100"
 // const tokenAddress = "0x68635287221d4Ff2F1031aA83A79be8359af871b"
-const tokenAddress = "0x0B306BF915C4d645ff596e518fAf3F9669b97016"
+//const tokenAddress = "0xcf94CEd1C88821CbC52c0bC086aFF11C72754A82"
+const tokenAddress = "0xA6A6968E553f1548A8d52e19aAAe7665C50062fa"
 
 function App() {
   const [greeting, setGreet] = useState();
@@ -19,7 +20,7 @@ function App() {
   const [decreaseAmount, setDecreaseAmount] = useState();
   const [accountBalance, setAccountBalance] = useState();
   const [accountAddress, setAccountAddress] = useState();
-  const [sendBetweenAddress,setSendBetweenAddress] = useState({
+  const [sendBetweenAddress, setSendBetweenAddress] = useState({
     addressA: "",
     addressB: "",
     amount: 0

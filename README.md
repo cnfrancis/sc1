@@ -13,3 +13,13 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+```
+npx hardhat compile
+npx harhat clean
+npx hardhat run scripts/deploy.js --network ropsten
+```
+Token will be deployed at address 0x....
+
+Copy the smart contract address to https://ropsten.etherscan.io/ to see if it was deployed
+

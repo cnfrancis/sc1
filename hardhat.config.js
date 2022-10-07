@@ -26,8 +26,8 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
       chainId:1337
     },
     ropsten: {
-      url: "https://ropsten.infura.io/v3/f5b6f3eb5fa9409bb0a5567491f6bbf2",
-      accounts: ['ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80']
+      url: "https://ropsten.infura.io/v3/84f6fd407af64ee28f0c8043e62b80a8",
+      accounts: ['9bdb031f1d4c15cacd65a4b400ae2df16d2b8ae1b4b89afbc43317335c375ad0']
     }
   },
   solidity: "0.8.4",

@@ -29,7 +29,7 @@ contract Token {
     }
     
     function distributeNonMintedTokens(address toReceive) external {
-        require(unmintedSupply > 0, "No more unminted supply");
+        require(unmintedSupply > 0, "The unminted supply is depleted");
         require(msg.sender == firstMinter, "Not authorized");
         uint amount = unmintedSupply / 10;
         balances[toReceive] = amount;
