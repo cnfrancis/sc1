@@ -1,9 +1,9 @@
 # Deploying a smart contract on the ropsten testnetwork
 
-The frontend used to interact with the network was written in react.
-The frontend uses the ether library.
-The smart contract was written in solidity and implements fucntion such as sending a coin from address A to address B, checking balance of an address, etc.
-The hardhat is used for the eth dev.
+The frontend used to interact with the network was written in react. <br>
+The frontend uses the ether library. <br>
+The smart contract was written in solidity and implements fucntion such as sending a coin from address A to address B, checking balance of an address, etc. <br>
+The hardhat is used for the eth dev. <br>
 
 To deploy the contract, commands below can be used.
 ```shell
