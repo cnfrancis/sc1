@@ -1,20 +1,12 @@
-# Basic Sample Hardhat Project
+# Deploying a smart contract on the ropsten testnetwork
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+The frontend used to interact with the network was written in react.
+The frontend uses the ether library.
+The smart contract was written in solidity and implements fucntion such as sending a coin from address A to address B, checking balance of an address, etc.
+The hardhat is used for the eth dev.
 
-Try running some of the following tasks:
-
+To deploy the contract, commands below can be used.
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
-
-```
 npx hardhat compile
 npx harhat clean
 npx hardhat run scripts/deploy.js --network ropsten
