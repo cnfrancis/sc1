@@ -15,6 +15,3 @@ Token will be deployed at address 0x.... <br>
 
 Copy the smart contract address to https://ropsten.etherscan.io/ to see if it was deployed <br>
 
-![image](https://user-images.githubusercontent.com/37379852/194566668-b9dce38c-7897-48e2-acd3-91e776462b36.png)
-
-
